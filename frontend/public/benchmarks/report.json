@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "status": "measured",
+  "rows": [
+    {
+      "method": "Hybrid",
+      "faithfulness": {
+        "mean": 0.9565217391304348,
+        "n": 5
+      },
+      "correctness": {
+        "mean": 0.5538800888765903,
+        "n": 8
+      },
+      "context_precision": {
+        "mean": 0.6537040815886372,
+        "n": 10
+      },
+      "context_recall": {
+        "mean": 1.0,
+        "n": 10
+      },
+      "recall": {
+        "mean": 1.0,
+        "n": 9
+      },
+      "abstention": {
+        "mean": 0,
+        "n": 2
+      }
+    }
+  ],
+  "case_count": 13,
+  "evaluated_at": "2026-09-27T10:32:41.368989+00:00",
+  "split": "held_out",
+  "engineering_only": true,
+  "final_k": 8,
+  "generator_model": "gemini-2.5-flash",
+  "judge_model": "gemini-2.5-flash",
+  "embedding_model": "gemini-embedding-001",
+  "cases_sha256": "c94e6dfd61460df19cdd760d96f8452dfbd8638a4cad4eb62ae5952c10493671",
+  "implementation_sha256": "6dee8ef1cb5cd194bfa7a1d58088efa1095187471444f6c6d523a2bd409b5262",
+  "results_sha256": "9854593a58feb8243f94674949ee6d38e7f06c56e3922e2ba82fbe021606c592",
+  "summary": {
+    "hybrid": {
+      "cases": 13,
+      "errors": 0,
+      "judge_errors": 6,
+      "answer_coverage": 0.7692307692307693,
+      "status_accuracy": 0.7692307692307693,
+      "citation_resolution": 1.0,
+      "citation_count": 49,
+      "scope_violations": 0,
+      "latency_p50_ms": 32515,
+      "latency_p95_ms": 109347,
+      "metrics": {
+        "faithfulness": {
+          "mean": 0.9565217391304348,
+          "n": 5
+        },
+        "answer_correctness": {
+          "mean": 0.5538800888765903,
+          "n": 8
+        },
+        "context_precision": {
+          "mean": 0.6537040815886372,
+          "n": 10
+        },
+        "context_recall": {
+          "mean": 1.0,
+          "n": 10
+        },
+        "retrieval_recall": {
+          "mean": 1.0,
+          "n": 9
+        },
+        "safe_abstention": {
+          "mean": 0,
+          "n": 2
+        }
+      }
+    }
+  },
+  "limitations": "Automated estimates, not legal correctness certification. Faithfulness scores cover scored answers only; inspect answer coverage, errors and metric denominators. Engineering review is not qualified legal review."
+}

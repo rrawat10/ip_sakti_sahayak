@@ -1,0 +1,44 @@
+{
+  "name": "chunks_lexical",
+  "type": "search",
+  "definition": {
+    "mappings": {
+      "dynamic": false,
+      "fields": {
+        "content": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "token"
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "reviewed": {
+          "type": "boolean"
+        },
+        "embedding_model": {
+          "type": "token"
+        },
+        "embedding_dimensions": {
+          "type": "number"
+        },
+        "title": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "current_reviewed": {
+          "type": "boolean"
+        },
+        "access": {
+          "type": "token"
+        },
+        "legal_status": {
+          "type": "token"
+        }
+      }
+    }
+  }
+}

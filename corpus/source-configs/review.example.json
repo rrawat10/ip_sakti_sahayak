@@ -1,0 +1,10 @@
+{
+  "reviewer": "Replace with the responsible reviewer's identifier",
+  "current_reviewed": false,
+  "locator_verified": false,
+  "legal_status": "unknown",
+  "published_at": null,
+  "effective_from": null,
+  "effective_until": null,
+  "review_notes": "Verify exact text, locators, source authenticity, territorial applicability, amendments, and current legal status before setting review flags."
+}

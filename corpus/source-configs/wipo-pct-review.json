@@ -1,0 +1,8 @@
+{
+  "reviewer": "Codex engineering source inspection, 2026-09-26",
+  "review_type": "engineering",
+  "current_reviewed": true,
+  "locator_verified": true,
+  "legal_status": "official_guidance",
+  "review_notes": "WIPO's PCT FAQ, headed August 2026, downloaded from its official HTTPS URL and compared with the page on 2026-09-26. Only #main-content is extracted; 31,330 characters, 15 bounded overlapping windows, no Unicode replacement characters. Locator identifies the FAQ page; excerpts are exact extracted text, not paragraph-level statutory citations. This is an official explanatory resource, not the PCT treaty text, an India regulatory corpus, or a professional legal review. WIPO authorship and original URL must remain on citations; AI summaries are adaptations. WIPO CC BY 4.0 terms checked separately in the source policy. No publication day or treaty commencement date is inferred from the FAQ month heading. Recheck changing fees, contracting-state counts and procedures before relying on them."
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "status": "measured",
+  "evaluation": "corpus_retrieval",
+  "evaluated_at": "2026-09-27T05:06:51.608939+00:00",
+  "engineering_only": true,
+  "case_count": 19,
+  "document_count": 19,
+  "final_k": 8,
+  "embedding_model": "gemini-embedding-001",
+  "cases_sha256": "b1cdddea3dd8cb2184c6e7f7de05913a5cfb44b744fc663f6886d85bb6406109",
+  "corpus_versions_sha256": "2389f11944ba8827dda6dcc0f0ca24a946e8f1764e385739e66235e45e8dca1b",
+  "rows": [
+    {
+      "method": "BM25",
+      "cases": 19,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.9605263157894737,
+      "scope_violations": 0,
+      "errors": 0,
+      "latency_p50_ms": 130
+    },
+    {
+      "method": "Vector",
+      "cases": 19,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 1.0,
+      "scope_violations": 0,
+      "errors": 0,
+      "latency_p50_ms": 700
+    },
+    {
+      "method": "Hybrid",
+      "cases": 19,
+      "hit_rate_at_k": 1.0,
+      "mrr_at_k": 0.9315789473684211,
+      "scope_violations": 0,
+      "errors": 0,
+      "latency_p50_ms": 661
+    }
+  ],
+  "limitations": "Engineering-reviewed document-finding cases. Hit rate and MRR measure retrieval only; they do not establish answer correctness or legal correctness."
+}

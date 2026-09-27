@@ -1,0 +1,130 @@
+{
+  "default": {
+    "permissions_reviewed": false,
+    "fetch_allowed": false,
+    "allowed_types": [
+      "text/html",
+      "application/pdf"
+    ],
+    "update_days": 30,
+    "policy": "Manual import only until source terms, robots policy, access and copyright permissions have been reviewed.",
+    "parser": "ip-sakti-v2",
+    "versioning": "sha256-immutable-reviewed-activation"
+  },
+  "tkdl": {
+    "fetch_allowed": false,
+    "allowed_types": [
+      "text/html"
+    ],
+    "update_days": 90,
+    "policy": "Public directory pointer only. Restricted records are not ingested."
+  },
+  "pct": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "html_selector": "#main-content",
+    "allowed_hosts": [
+      "www.wipo.int"
+    ],
+    "policy": "Manual import of WIPO-authored PCT FAQ text only. WIPO open-access terms checked 2026-09-26: https://www.wipo.int/en/web/terms-of-use (CC BY 4.0, excluding third-party material and logos). Retain WIPO attribution and original URL; generated summaries are adaptations, not WIPO endorsement. Document extraction/applicability review remains separate."
+  },
+  "wipo": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "www.wipo.int"
+    ],
+    "allowed_urls": [
+      "https://www.wipo.int/en/web/hague-system/about",
+      "https://www.wipo.int/en/web/treaties/registration/budapest/summary_budapest",
+      "https://www.wipo.int/en/web/treaties/ip/gratk/summary_gratk",
+      "https://www.wipo.int/en/web/trade-secrets",
+      "https://www.wipo.int/en/web/madrid-system"
+    ],
+    "policy": "WIPO-authored text only, CC BY 4.0 under https://www.wipo.int/en/web/terms-of-use checked 2026-09-26; retain attribution, mark generated explanations as adaptations, exclude third-party material and logos. Manual review imports only; this is not blanket crawling permission."
+  },
+  "ema": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "www.ema.europa.eu"
+    ],
+    "allowed_urls": [
+      "https://www.ema.europa.eu/en/human-regulatory-overview/herbal-medicinal-products"
+    ],
+    "policy": "EMA-owned text may be reproduced/distributed with attribution under https://www.ema.europa.eu/en/about-us/about-website/legal-notice checked 2026-09-26. Exclude third-party materials and logos. Manual review imports only; this is not blanket crawling permission."
+  },
+  "mhra": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "www.gov.uk"
+    ],
+    "allowed_urls": [
+      "https://www.gov.uk/guidance/apply-for-a-traditional-herbal-registration-thr"
+    ],
+    "policy": "Crown copyright text under Open Government Licence v3.0 linked from the GOV.UK page footer. Retain attribution and source link; exclude third-party content and marks. Checked 2026-09-26. Manual review imports only; this is not blanket crawling permission."
+  },
+  "fda": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "www.fda.gov"
+    ],
+    "allowed_urls": [
+      "https://www.fda.gov/media/93113/download"
+    ],
+    "policy": "FDA-authored government text is public domain under https://www.fda.gov/about-fda/about-website/website-policies checked 2026-09-26. Retain attribution and current original source link. Manual review imports only; this is not blanket crawling permission."
+  },
+  "patents": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "ipindia.gov.in"
+    ],
+    "allowed_urls": [
+      "https://ipindia.gov.in/storage/uploads/docs-operator/73b5bf10-b04e-4f45-abef-87ff117315dc.pdf",
+      "https://ipindia.gov.in/frontend/pdf/patents/rules/1_83_1_Patent_Amendment_Rule_2024_Gazette_Copy.pdf",
+      "https://ipindia.gov.in/frontend/pdf/patents/rules/Patent_second_amendment_rules_2024.pdf"
+    ],
+    "policy": "Manual import of official legislative text for source-grounded research explanations, with original commentary and attribution. Copyright Act 1957 section 52(1)(q)(ii) permits legislative text together with commentary or other original matter; confirmed against IP India Copyright Act text. This covers the named Act only, not government FAQs, photographs, logos, paid annotations or registry data. Do not publish a standalone copied statute library. Permission basis recorded 2026-09-26; professional legal review before public release remains advisable."
+  },
+  "cdsco": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "cdsco.gov.in"
+    ],
+    "allowed_urls": [
+      "https://cdsco.gov.in/opencms/opencms/en/Traditional_Drugs/",
+      "https://cdsco.gov.in/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTIyNg==",
+      "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/Phyto.pdf"
+    ],
+    "policy": "Narrow manual import of the section 3 statutory definitions reproduced in the Traditional Drugs document container for accompanying original research explanations, under Copyright Act section 52(1)(q)(ii), with authority and locator attribution. This is a statutory quotation basis, NOT general permission to reproduce CDSCO website content: its copyright policy requires permission for other materials. No logos, photographs, other guidance, registry content or bulk site copying. Checked 2026-09-26."
+  },
+  "nba": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "www.nbaindia.nic.in"
+    ],
+    "allowed_urls": [
+      "https://www.nbaindia.nic.in/sites/default/files/2026-05/BDAct_2023.pdf",
+      "https://www.nbaindia.nic.in/sites/default/files/2026-05/BD_Rules.pdf",
+      "https://www.nbaindia.nic.in/sites/default/files/2026-05/AmendmentBD_Rules.pdf"
+    ],
+    "policy": "Manual imports of the named official Gazette legislation only, for source-grounded explanations with attribution. Legislative text is used with original commentary under Copyright Act section 52(1)(q)(ii); this is not blanket permission to copy the NBA site. Current applicability and later amendments are reviewed separately. Checked 2026-09-27."
+  },
+  "fssai": {
+    "permissions_reviewed": true,
+    "fetch_allowed": false,
+    "allowed_hosts": [
+      "fssai.gov.in",
+      "www.fssai.gov.in"
+    ],
+    "allowed_urls": [
+      "https://fssai.gov.in/docs/food-law/regulations/62789a20b54bdGazette_Notification_Ayurveda_Aahara_09_05_2022.pdf"
+    ],
+    "policy": "Manual import of the named FSSAI-authored Gazette regulation. FSSAI's copyright policy permits accurate reproduction with prominent source acknowledgement and excludes third-party material. No logos or third-party content. Checked 2026-09-27."
+  }
+}

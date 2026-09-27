@@ -1,0 +1,359 @@
+[
+  {
+    "source": "wipo",
+    "document": "wipo-hague",
+    "url": "https://www.wipo.int/en/web/hague-system/about",
+    "title": "How to Use the Hague System?",
+    "locator": "Hague System overview",
+    "file": "data/source-review/wipo-hague.html",
+    "sha256": "f23409d2949dd2b5befa367a880f7ec2edfe16195eaee8b61b0d5e24ce4b21ad",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "WIPO-authored procedure overview, international scope only. No assertion of protection in non-designated states; application requirements and fees need case-specific verification. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": "#main-content"
+  },
+  {
+    "source": "wipo",
+    "document": "wipo-budapest",
+    "url": "https://www.wipo.int/en/web/treaties/registration/budapest/summary_budapest",
+    "title": "Summary of the Budapest Treaty (1977)",
+    "locator": "Official treaty summary",
+    "file": "data/source-review/wipo-budapest.html",
+    "sha256": "2f691c961755ec3408df05962cfe654cd8b0965a86a9742127b3c6572f0b30e2",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "WIPO summary concerns recognition of deposits, not grant of patent rights. Country membership is not inferred. Treat as explanatory guidance, not treaty text. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": "#main-content"
+  },
+  {
+    "source": "wipo",
+    "document": "wipo-gratk",
+    "url": "https://www.wipo.int/en/web/treaties/ip/gratk/summary_gratk",
+    "title": "Summary of the WIPO GRATK Treaty (2024)",
+    "locator": "Official treaty summary",
+    "file": "data/source-review/wipo-gratk.html",
+    "sha256": "ecae9b99f6c829b496fc9c95cfaa21b38b82ffadbd89bef733c4f55ba2886075",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "adopted_not_in_force",
+      "review_notes": "Adopted 2024-05-24. WIPO contracting-parties table checked 2026-09-26 explicitly says Not yet in force: https://www.wipo.int/wipolex/en/treaties/ShowResults?search_what=C&treaty_id=19830 . Never state current mandatory disclosure duties arise from this treaty alone. Extraction and authority checked on 2026-09-26; no qualified legal review claimed.",
+      "adopted_on": "2024-05-24"
+    },
+    "html_selector": "#main-content"
+  },
+  {
+    "source": "wipo",
+    "document": "wipo-secrets",
+    "url": "https://www.wipo.int/en/web/trade-secrets",
+    "title": "Trade Secrets: WIPO overview",
+    "locator": "Trade secrets questions and answers",
+    "file": "data/source-review/wipo-secrets.html",
+    "sha256": "2a6e0f2e3e7568004176c8f7d1413fcaafe42cb45b8056b7dd393050859cb809",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "General international explanation; requirements vary by legal system. Does not establish a standalone Indian trade-secret statute. Exclude images and third-party downloads. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": "#main-content"
+  },
+  {
+    "source": "wipo",
+    "document": "wipo-madrid",
+    "url": "https://www.wipo.int/en/web/madrid-system",
+    "title": "Madrid System: international trademark protection",
+    "locator": "Madrid System overview",
+    "file": "data/source-review/wipo-madrid.html",
+    "sha256": "df82e42d594c1a6f0803af5ce0ac523dfe8203960953e8d541377f7ee085891d",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "WIPO system overview only; country counts, downtime notices and news are date-sensitive. No automatic worldwide trademark protection. Text only, no third-party images. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": "#main-content"
+  },
+  {
+    "source": "ema",
+    "document": "ema-herbal",
+    "url": "https://www.ema.europa.eu/en/human-regulatory-overview/herbal-medicinal-products",
+    "title": "Herbal medicinal products",
+    "locator": "EU herbal medicinal products overview",
+    "file": "data/source-review/ema-herbal.html",
+    "sha256": "011a1fc9c241e3b08cc87fec751680329c44a54c2ae1977ae2b43b1e1a585a6a",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "Current EMA overview distinguishes traditional-use registration, well-established-use and stand-alone/mixed applications. Full quality dossier remains necessary. Guidance is not national authorisation or a product-specific assessment. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": "article.ema-general"
+  },
+  {
+    "source": "mhra",
+    "document": "uk-thr",
+    "url": "https://www.gov.uk/guidance/apply-for-a-traditional-herbal-registration-thr",
+    "title": "Apply for a traditional herbal registration (THR)",
+    "locator": "Traditional herbal registration guidance",
+    "file": "data/source-review/uk-thr.html",
+    "sha256": "226f9aefa269c9693d5e901fd3b43c4ae420ebb66e8b77943b4b1212a27dc5b8",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "MHRA guidance last updated 2024-01-05. Preserve Great Britain versus Northern Ireland/whole-UK evidence distinctions in the text. No product-specific approval or independent verification of linked fee schedules. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    },
+    "html_selector": ".govspeak"
+  },
+  {
+    "source": "fda",
+    "document": "fda-botanical-guidance",
+    "url": "https://www.fda.gov/media/93113/download",
+    "title": "Botanical Drug Development: Guidance for Industry (December 2016)",
+    "locator": "Botanical Drug Development guidance",
+    "file": "data/source-review/fda-botanical-guidance.pdf",
+    "sha256": "092c67ceb8b6782e0c0bb553940d551d2a622f353d497e272c38529ee18d7877",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "34 PDF pages with searchable English text and preserved PDF page locators. December 2016 final guidance is linked by the current FDA botanical guidance landing page checked 2026-09-26. Nonbinding guidance for botanical drug development, not evidence of product approval. Excludes treatment recommendations. Extraction and authority checked on 2026-09-26; no qualified legal review claimed."
+    }
+  },
+  {
+    "source": "patents",
+    "document": "india-patents-act-2024",
+    "url": "https://ipindia.gov.in/storage/uploads/docs-operator/73b5bf10-b04e-4f45-abef-87ff117315dc.pdf",
+    "title": "The Patents Act, 1970 (incorporating amendments through 1 August 2024)",
+    "locator": "Patents Act consolidated text",
+    "file": "data/source-review/ip-patents-act.pdf",
+    "sha256": "d57084888c69d70b16ed6a52a612363a526994203effa58880a26faaaa6e0678",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "effective_from": "2024-08-01",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Current consolidation listed first by IP India at https://ipindia.gov.in/resource/patents-resources-act on 2026-09-26, incorporating amendments through 2024-08-01. This date is the consolidated version applicability date, not original Act commencement. Original commencement and individual amendment dates remain in footnotes. 69 searchable PDF pages with PDF page locators. Sections 2 and 3 contain the definitions and exclusions; section 10 addresses disclosure and deposits. Rules, judgments and product-specific novelty searches are separate and not supplied by this Act. Engineering review only; no qualified legal review claimed."
+    }
+  },
+  {
+    "source": "cdsco",
+    "document": "india-asu-definitions",
+    "url": "https://cdsco.gov.in/opencms/opencms/en/Traditional_Drugs/",
+    "title": "Traditional Drugs: CDSCO reproduction of ASU statutory definitions",
+    "locator": "Drugs and Cosmetics Act section 3 definitions reproduced by CDSCO",
+    "file": "data/source-review/cdsco-traditional.html",
+    "sha256": "f7d25a76768f562a30ba545299e6f9743293234409abf1fc24bcf333899a29aa",
+    "html_selector": "#traditional_drug_content",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "review_notes": "Official CDSCO Traditional Drugs webpage, checked 2026-09-26. It reproduces ASU definitions including section 3(a) and 3(h)(i); text compared with the same authority statutory PDF pages 2-3. This is a selected official explanation, not the consolidated Act or complete current Rules. The patent-or-proprietary regulatory category is not a granted IP patent. No case-specific classification, new-drug requirements, licence validity, advertising rules or approval may be inferred from this excerpt. Statutory language is quoted for accompanying original research explanations. Engineering review, not qualified legal advice."
+    }
+  },
+  {
+    "source": "patents",
+    "document": "india-patent-amendment-rules-2024",
+    "url": "https://ipindia.gov.in/frontend/pdf/patents/rules/1_83_1_Patent_Amendment_Rule_2024_Gazette_Copy.pdf",
+    "title": "The Patents (Amendment) Rules, 2024",
+    "locator": "Gazette G.S.R. 211(E), PDF pages",
+    "file": "data/source-review/india-patent-amendment-rules-2024.pdf",
+    "sha256": "2c7c546b595ce1137f08cbd977f9e17ba1668cbf78e9c2fd124ef8961158abe2",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2024-03-15",
+      "effective_from": "2024-03-15",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official Gazette amendment text published and effective 2024-03-15. It amends specified provisions of the Patents Rules, 2003; it is not a standalone consolidation. Read with the active Patents Act and other applicable Patent Rules. Bilingual PDF extraction and page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "patents",
+    "document": "india-patent-second-amendment-rules-2024",
+    "url": "https://ipindia.gov.in/frontend/pdf/patents/rules/Patent_second_amendment_rules_2024.pdf",
+    "title": "The Patents (Second Amendment) Rules, 2024",
+    "locator": "Gazette G.S.R. 215(E), PDF pages",
+    "file": "data/source-review/india-patent-second-amendment-rules-2024.pdf",
+    "sha256": "51af3749e334fea6fc78d5504df26d5e0eff2086e8059543f55a5322a675a8a7",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2024-03-16",
+      "effective_from": "2024-03-16",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official Gazette amendment text published and effective 2024-03-16. It adds adjudication and appeal procedure after rule 107; it is not a standalone consolidation. Bilingual PDF extraction and page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "nba",
+    "document": "india-biodiversity-amendment-act-2023",
+    "url": "https://www.nbaindia.nic.in/sites/default/files/2026-05/BDAct_2023.pdf",
+    "title": "The Biological Diversity (Amendment) Act, 2023",
+    "locator": "Act 10 of 2023, PDF pages",
+    "file": "data/source-review/nba-amendment-2023.pdf",
+    "sha256": "03af902a2b3ea88b100b60cf59e7ae067fa25f9d445368b9078dce1ad8a53892",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2023-08-03",
+      "effective_from": "2024-04-01",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official amendment Act, including amended access, IPR and ABS provisions. Commencement 2024-04-01 verified against the official India Code consolidation and NBA materials. This amendment text must be read with the consolidated Biological Diversity Act and later rules. PDF page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "nba",
+    "document": "india-biodiversity-rules-2024",
+    "url": "https://www.nbaindia.nic.in/sites/default/files/2026-05/BD_Rules.pdf",
+    "title": "The Biological Diversity Rules, 2024",
+    "locator": "Gazette G.S.R. 665(E), PDF pages",
+    "file": "data/source-review/nba-rules-2024.pdf",
+    "sha256": "33ec189d783e1124cb9c7f027ea9fabcae850bbb3df1a6753cdebc7fe776f4d1",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2024-10-22",
+      "effective_from": "2024-12-21",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official Rules notified 2024-10-22 and effective after sixty days on 2024-12-21. They superseded the 2004 Rules. Rule 19 was later replaced by the 2025 amendment, which is ingested separately; the original rule 19 must not be treated as current. Bilingual PDF extraction and page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "nba",
+    "document": "india-biodiversity-amendment-rules-2025",
+    "url": "https://www.nbaindia.nic.in/sites/default/files/2026-05/AmendmentBD_Rules.pdf",
+    "title": "The Biological Diversity (Amendment) Rules, 2025",
+    "locator": "Gazette G.S.R. 320(E), PDF pages",
+    "file": "data/source-review/nba-rules-amendment-2025.pdf",
+    "sha256": "a32a3bcac48955f0285e7a5c589880e6bfa00ac9f5d53c3d969616761d4dc63a",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2025-05-06",
+      "effective_from": "2025-11-01",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official amendment replacing rule 19 of the Biological Diversity Rules, 2024, including the cultivated medicinal plant certificate-of-origin procedure. Effective 2025-11-01. Read with the 2024 Rules and amended Act. Bilingual PDF extraction and page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "fssai",
+    "document": "india-ayurveda-aahara-regulations-2022",
+    "url": "https://fssai.gov.in/docs/food-law/regulations/62789a20b54bdGazette_Notification_Ayurveda_Aahara_09_05_2022.pdf",
+    "title": "Food Safety and Standards (Ayurveda Aahara) Regulations, 2022",
+    "locator": "FSSAI notification dated 5 May 2022, PDF pages",
+    "file": "data/source-review/fssai-ayurveda-regulations-2022.pdf",
+    "sha256": "1ae8cfc632fad0a775316a84999a48adb6cf4b47d05bd4faa75f5190c511f699",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2022-05-05",
+      "effective_from": "2022-05-05",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official Gazette regulation defining Ayurveda Aahara, exclusions, formulation, labelling and claims requirements. The later category-A recipe orders are separate and are not supplied by this document. Bilingual PDF extraction and page locators checked 2026-09-27. Engineering review only."
+    }
+  },
+  {
+    "source": "cdsco",
+    "document": "india-cosmetics-rules-2020",
+    "url": "https://cdsco.gov.in/opencms/opencms/system/modules/CDSCO.WEB/elements/download_file_division.jsp?num_id=OTIyNg==",
+    "title": "The Cosmetics Rules, 2020",
+    "locator": "Gazette G.S.R. 763(E), PDF pages",
+    "file": "data/source-review/india-cosmetics-rules.pdf",
+    "sha256": "baf622fd41acd2bd42333ceba332362a9223c60b32cb8544ad408b5ae57e6e0f",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "in_force",
+      "published_at": "2020-12-15",
+      "effective_from": "2020-12-15",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official CDSCO Gazette text. CDSCO's current Cosmetics Rules directory lists this rule text and, when checked 2026-09-27, did not list a final amending rule; a 2023 item located elsewhere was a draft. Exact PDF page locators and extraction checked. Engineering review only; later notifications and applicable BIS standards must still be checked for a specific product."
+    }
+  },
+  {
+    "source": "cdsco",
+    "document": "india-phytopharmaceutical-faq",
+    "url": "https://cdsco.gov.in/opencms/resources/UploadCDSCOWeb/2018/UploadAlertsFiles/Phyto.pdf",
+    "title": "FAQs on Approval of New Phytopharmaceutical Drugs",
+    "locator": "CDSCO official FAQ, PDF pages",
+    "file": "data/source-review/cdsco-phytopharmaceutical-faq.pdf",
+    "sha256": "5d367173ae43346f99c1ca8e69af0c0f488d72bb493a39681457747d7b6e1e2e",
+    "review": {
+      "reviewer": "IP-SAKTI engineering source review",
+      "review_type": "engineering",
+      "current_reviewed": true,
+      "locator_verified": true,
+      "legal_status": "official_guidance",
+      "territories": [
+        "India"
+      ],
+      "review_notes": "Official CDSCO FAQ covering the phytopharmaceutical definition, distinction from ASU drugs, new-drug treatment and data expectations. Availability and content checked 2026-09-27. Guidance is read with current legislation and is not itself a Gazette rule. Engineering review only."
+    }
+  }
+]
